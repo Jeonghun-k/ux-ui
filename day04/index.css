@@ -1,0 +1,25 @@
+h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #111827;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #374151;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+.badge {
+    font-size: 12px;
+    color: #2563eb;
+    font-weight: 600;
+}
