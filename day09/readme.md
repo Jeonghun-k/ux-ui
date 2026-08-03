@@ -214,25 +214,3 @@ Stroke 위치를 `Center` → **`Inside`** 로 변경.
 
 ---
 
-## 7. 이전 학습과의 연결
-
-- **Day 7~8 오토레이아웃**이 컴포넌트의 *내부 구조*를 담당한다.
-  오토레이아웃이 제대로 잡힌 요소만 배리언트로 만들었을 때 텍스트 길이가 달라져도 안 깨진다.
-- 오늘 작업은 그것을 **재사용 가능하게 포장**하는 단계다.
-- 세로는 `hug`가 기본, `fill`은 형제와 높이를 맞춰야 할 때만 쓰는 예외.
-
----
-
-## 참고 자료
-
-- [Guide to components in Figma](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma)
-- [Create and use variants](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants)
-- [Explore component properties](https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties)
-- [Creating and organizing Variants — Best practices](https://www.figma.com/best-practices/creating-and-organizing-variants/)
-- [Figma Variants Playground (연습 파일)](https://www.figma.com/community/file/903303571898472063/figma-variants-playground)
-
----
-
-## 다음 학습
-
-컴포넌트/배리언트를 **뱃지(Badge) 또는 아바타(Avatar)** 같은 더 단순한 요소로 한 번 더 실습 → 로드맵 2단계 "간단한 시안 1개 직접 제작"
