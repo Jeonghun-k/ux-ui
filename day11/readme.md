@@ -5,7 +5,7 @@
 ## 오늘 배운 것
 
 ### 결과물
-![day11-result](./day11-result)
+![day11-result](./day11-result.png)
 
 ### 결과물 구조
  
