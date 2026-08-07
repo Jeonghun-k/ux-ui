@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comment {
+            display: flex;
+            align-items: flex-start;
+            gap: 21px;
+        }
+
+        .avatar {
+            width: 44px;
+            height: 44px;
+            flex-shrink: 0;
+            /* 이걸 생략하면 본문이 늘어나면 원도 같이 늘어나게된다*/
+            background-color: #eee;
+            border-radius: 50%
+        }
+
+        .body {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex: 1;
+        }
+
+        .meta {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .actions {
+            display: flex;
+            gap: 4px;
+        }
+
+        .text {
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="comment">
+        <div class="avatar"></div>
+
+        <div class="body">
+            <div class="meta">
+                <span class="name">@jeonghun_dev</span>
+                <span class="time">3시간 전</span>
+            </div>
+
+            <p class="text">
+                오토레이아웃이랑 flex가 1:1이라는 거 오늘 확실히 이해했습니다.
+            </p>
+
+            <div class="actions">
+                <button>👍 24</button>
+                <button>👎</button>
+                <button>답글</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
